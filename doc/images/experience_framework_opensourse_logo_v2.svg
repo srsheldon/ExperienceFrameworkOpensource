@@ -1,0 +1,57 @@
+<svg width="502" height="501" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="503" width="504" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="212.791158" rx="215.458613" id="svg_1" cy="247.499118" cx="249.999705" stroke-width="50" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="250" id="svg_47" y="334.849992" x="106.617061" stroke-width="0" stroke="#000000" fill="#000000">E</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="250" id="svg_48" y="333.849704" x="268.505173" stroke-width="0" stroke="#000000" fill="#000000">F</text>
+  <path id="svg_3" d="m195.5,260.950012" opacity="0.5" stroke-width="4.5" stroke="#56ff56" fill="none"/>
+  <path id="svg_4" d="m293.5,261.950012" opacity="0.5" stroke-width="4.5" stroke="#56ff56" fill="none"/>
+  <path id="svg_7" d="m24.5,245.949997" opacity="0.5" stroke-width="50" stroke="#56ff56" fill="#ffd4aa"/>
+  <path id="svg_8" d="m130.5,243.949997" opacity="0.5" stroke-width="50" stroke="#56ff56" fill="#ffd4aa"/>
+  <path id="svg_9" d="m250.5,241.949997" opacity="0.5" stroke-width="50" stroke="#56ff56" fill="#ffd4aa"/>
+  <text transform="rotate(-90.3233, 32.6597, 250.494) matrix(4.03601, 0, 0, 3.32769, -1225.19, -786.317)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_11" y="316.979179" x="306.77085" stroke-width="0" stroke="#000000" fill="#56ff56">E</text>
+  <path id="svg_12" d="m233.5,246.949997" opacity="0.5" stroke-width="50" stroke="#56ff56" fill="none"/>
+  <path id="svg_13" d="m163.5,135.949997" opacity="0.5" stroke-width="50" stroke="#56ff56" fill="none"/>
+  <text transform="rotate(-80, 38.3985, 208.437) matrix(3.07799, 0, 0, 2.74023, -525.197, -540.62)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_14" y="278.762375" x="177.326929" stroke-width="0" stroke="#000000" fill="#56ff56">X</text>
+  <text transform="rotate(-70, 48.4018, 171.195) matrix(3.78628, 0, 0, 3.08554, -931.054, -753.362)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_15" y="305.072598" x="254.235103" stroke-width="0" stroke="#000000" fill="#56ff56">P</text>
+  <text transform="rotate(-60, 65.1082, 138.553) matrix(3.70205, 0, 0, 2.73491, -787.445, -541.507)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_16" y="254.037625" x="225.405058" stroke-width="0" stroke="#000000" fill="#56ff56">E</text>
+  <text transform="matrix(38.6307, 0, 0, 7.36909, -10133.9, -1994.23)" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_17" y="311.949997" x="266.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#56ff56" fill="#000000"/>
+  <text transform="rotate(-50, 87.7883, 105.776) matrix(3.27267, 0, 0, 2.81744, -869.659, -789.532)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_18" y="323.178787" x="287.150328" stroke-width="0" stroke="#000000" fill="#56ff56">R</text>
+  <text transform="rotate(-40, 116.408, 79.1038) matrix(5.72036, 0, 0, 2.89779, -1532.33, -859.488)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_19" y="329.304398" x="285.558752" stroke-width="0" stroke="#000000" fill="#56ff56">I</text>
+  <text transform="rotate(-30, 148.098, 59.2538) matrix(3.23098, 0, 0, 2.89562, -596.857, -705.63)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_20" y="269.532339" x="225.681072" stroke-width="0" stroke="#000000" fill="#56ff56">E</text>
+  <text transform="rotate(-20, 180.989, 44.1856) matrix(2.96227, 0, 0, 2.75476, -637.006, -608.736)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_21" y="242.436512" x="270.467334" stroke-width="0" stroke="#000000" fill="#56ff56">N</text>
+  <text transform="rotate(-10, 214.736, 35.0602) matrix(2.9144, 0, 0, 2.73688, -716.298, -654.941)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_22" y="257.508205" x="314.12334" stroke-width="0" stroke="#000000" fill="#56ff56">C</text>
+  <text transform="matrix(2.99933, 0, 0, 2.75193, -573.943, -496.689)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_25" y="197.658357" x="270.156703" stroke-width="0" stroke="#000000" fill="#56ff56">E</text>
+  <text transform="rotate(10, 311.449, 42.4487) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_26" y="134.113747" x="247.958362" stroke-width="0" stroke="#000000" fill="#56ff56">F</text>
+  <text transform="rotate(20, 341.563, 51.2062) matrix(2.73504, 0, 0, 2.98024, -335.102, -488)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_27" y="186.347466" x="241.997622" stroke-width="0" stroke="#000000" fill="#56ff56">R</text>
+  <text transform="rotate(30, 370.461, 67.8755) matrix(2.51314, 0, 0, 3.05603, -355.412, -464.388)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_28" y="179.530904" x="283.053789" stroke-width="0" stroke="#000000" fill="#56ff56">A</text>
+  <text transform="rotate(40, 396.849, 89.8953) matrix(2.07993, 0, 0, 2.87894, -205.959, -391.304)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_29" y="172.521829" x="282.708408" stroke-width="0" stroke="#000000" fill="#56ff56">M</text>
+  <text transform="rotate(50, 419.375, 114.049) matrix(2.91683, 0, 0, 2.94571, -430.417, -502.371)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_30" y="214.634984" x="286.454988" stroke-width="0" stroke="#000000" fill="#56ff56">E</text>
+  <text transform="rotate(60, 436.467, 142.958) matrix(2.11456, 0, 0, 2.87228, -279.351, -346.369)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_31" y="175.716088" x="330.969382" stroke-width="0" stroke="#000000" fill="#56ff56">W</text>
+  <text transform="rotate(70, 451.886, 174.295) matrix(2.1773, 0, 0, 2.95668, -238.481, -581.218)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_32" y="261.017387" x="311.295613" stroke-width="0" stroke="#000000" fill="#56ff56">O</text>
+  <text transform="rotate(90, 465.169, 250.5) matrix(2.56905, 0, 0, 3.32865, -460.19, -786.426)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_33" y="316.898255" x="354.349363" stroke-width="0" stroke="#000000" fill="#56ff56">K</text>
+  <text transform="rotate(80, 461.416, 209.082) matrix(2.79466, 0, 0, 2.98455, -446.175, -559.628)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_34" y="262.925565" x="319.349816" stroke-width="0" stroke="#000000" fill="#56ff56">R</text>
+  <defs>
+   <style>.cls-1{fill:url(#radial-gradient);}</style>
+  </defs>
+  <text transform="rotate(40, 99.77, 398.554) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_70" y="254.21721" x="180.597476" stroke-width="0" stroke="#000000" fill="#56ff56">E</text>
+  <text transform="rotate(-20, 348.495, 433.565) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_71" y="266.025135" x="258.710806" stroke-width="0" stroke="#000000" fill="#56ff56">R</text>
+  <text transform="rotate(20, 163.282, 441.567) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_72" y="268.724089" x="199.888622" stroke-width="0" stroke="#000000" fill="#56ff56">N</text>
+  <text transform="rotate(-10, 303.651, 451.57) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_73" y="272.097781" x="244.163385" stroke-width="0" stroke="#000000" fill="#56ff56">U</text>
+  <text transform="rotate(10, 210.418, 454.571) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_74" y="273.109888" x="216.017284" stroke-width="0" stroke="#000000" fill="#56ff56">S</text>
+  <text transform="rotate(50, 74.5827, 368.545) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_75" y="244.096132" x="171.742524" stroke-width="0" stroke="#000000" fill="#56ff56">O</text>
+  <text transform="rotate(30, 128.394, 423.562) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_76" y="262.651444" x="190.084925" stroke-width="0" stroke="#000000" fill="#56ff56">P</text>
+  <text transform="matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_77" y="274.459368" x="229.299712" stroke-width="0" stroke="#000000" fill="#56ff56">O</text>
+  <text transform="rotate(-40, 416.864, 383.55) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_78" y="249.15667" x="280.848182" stroke-width="0" stroke="#000000" fill="#56ff56">E</text>
+  <text transform="rotate(-30, 384.273, 412.558) matrix(3.16301, 0, 0, 2.96499, -486.917, -339.234)" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="16" id="svg_79" y="258.94038" x="270.095738" stroke-width="0" stroke="#000000" fill="#56ff56">C</text>
+ </g>
+</svg>
