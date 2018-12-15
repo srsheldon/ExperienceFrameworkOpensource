@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/srsheldon/ExperienceFrameworkOpensource">
-        <img src="./doc/images/experience_framework_opensourse_logo_v1.svg" alt="Experience Framework logo" width="500" title="Build with the best... the tag line will go here once I come up with a good one"/>
+        <img src="./doc/images/experience_framework_opensourse_logo_v1.svg" alt="Experience Framework logo" width="500" title="EF all this complicated web development."/>
   </a>
 </p>
 
