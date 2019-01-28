@@ -4,20 +4,21 @@
         <title></title>
         <meta charset="utf-8"/>
         <style>
-            [is="ef-button"] {
+            /* [is="ef-button"] {
                 background: green;
-            }
+            } */
         </style>
+
+        <script type="module" src="./ef-button.js"></script>
     </head>
     <body>
         <header></header>
         <main>
-            <button id="efButtonExample" is="ef-button" onclick="alert('efButton clicked!');">This is an EF Button</button>
+            <button id="efButtonExample" is="ef-button">This is an EF Button</button>
             <button id="runUnitTests">Run unit tests</button>
         </main>
         <footer></footer>
     </body>
-    <script type="module" src="./ef-button.js"></script>
     <script>
         const runUnitTestsButton = document.querySelector('#runUnitTests');
         runUnitTestsButton.addEventListener('click', (event) => {
