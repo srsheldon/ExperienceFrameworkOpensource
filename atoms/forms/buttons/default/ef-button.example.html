@@ -7,6 +7,9 @@
             /* [is="ef-button"] {
                 background: green;
             } */
+            :root {
+                --primary: blue;
+            }
         </style>
 
         <script type="module" src="./ef-button.js"></script>
@@ -26,5 +29,9 @@
             unitTestScript.src = './ef-button.spec.js'
             document.getElementsByTagName('head')[0].appendChild(unitTestScript);
         }, false);
+
+        const efButton2 = document.createElement("button", { is: "ef-button" });
+        efButton2.textContent = "Click me!";
+        document.body.appendChild(efButton2);
     </script>
 </html>
