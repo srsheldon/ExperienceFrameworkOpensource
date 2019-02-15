@@ -10,4 +10,15 @@
 
 The goal is to work with the browser(s) and learn the best way to implemnt the available technology to enhance users experience on the web.
 
+## Colors
+colors will be based on HTTP status codes:
+100 = info
+200 = success
+300 = warning
+400 = danger/error
+
+see:
+* https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+* http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
