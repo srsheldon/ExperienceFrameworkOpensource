@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html is="ef-html" lang="fr">
+    <head>
+        <title></title>
+        <meta charset="utf-8"/>
+
+        <script type="module" src="./ef-html.js"></script>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <button id="efButtonExample" is="ef-button">This is an EF Button</button>
+            <button id="runUnitTests">Run unit tests</button>
+        </main>
+        <footer></footer>
+    </body>
+    <script>
+        /*
+        * This is a JavaScript Scratchpad.
+        *
+        * Enter some JavaScript, then Right Click or choose from the Execute Menu:
+        * 1. Run to evaluate the selected text (Cmd-R),
+        * 2. Inspect to bring up an Object Inspector on the result (Cmd-I), or,
+        * 3. Display to insert the result in a comment after the selection. (Cmd-L)
+        */
+
+        // navigator.permissions.query({name:'geolocation'}).then(function(result) {
+        //   console.dir(result);
+        //   if (result.state == 'granted') {
+        //     console.log('granted');
+        //   } else if (result.state == 'prompt') {
+        //     console.log('prompt');
+        //   } else {
+        //     console.log('rejected?');
+        //   }
+        //   // Don't do anything if the permission was denied.
+        // });
+
+        if ( 'AmbientLightSensor' in window ) {
+            const sensor = new AmbientLightSensor();
+            sensor.onreading = () => {
+                console.log('Current light level:', sensor.illuminance);
+            };
+            sensor.onerror = (event) => {
+                console.log(event.error.name, event.error.message);
+            };
+            sensor.start();
+        } else if ("ondevicelight" in window) {
+            console.log('no AmbientLightSensor :(');
+            
+            window.addEventListener('devicelight', function(event) {
+                if (event.value < 50) {
+                    console.log('darklight');
+                } else {
+                    console.log('brightlight');
+                }
+            });
+            //   navigator.permissions.query({name:'ambient-light-sensor'}).then(function(result) {
+                
+            //     if (result.state == 'granted') {
+            //       console.log('granted');
+            //     } else if (result.state == 'prompt') {
+            //       console.log('prompt');
+            //     } else if (result.state == 'denied') {
+            //       console.log('denied');
+            //     }
+                
+            //   });
+        } else {
+            console.log('devicelight event not supported');
+        }
+    </script>
+</html>

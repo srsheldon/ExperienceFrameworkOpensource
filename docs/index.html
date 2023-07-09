@@ -5,8 +5,48 @@
     <meta charset="utf-8"/>
 </head>
 <body>
-    <main>
+    <button data-nav-to-page="page2.html">nav to page</button>
+    <main data-main="">
         <h1>hello!</h1>
     </main>
+    <script>
+        const mainContentContainer = document.querySelector('main');
+        const navArray = document.querySelectorAll('[data-nav-to-page]');
+
+        console.dir(navArray);
+
+        navArray.forEach(navItem => {
+            navItem.addEventListener('click', () => {
+                console.log('clk');
+                console.log(navItem.getAttribute('data-nav-to-page'));
+                const pathTo = navItem.getAttribute('data-nav-to-page');
+                fetch(`${pathTo}`, {
+  method: 'GET',
+  mode: 'no-cors'
+})
+    .then(async function(response) {
+        // When the page is loaded convert it to text
+        console.log(await response.text())
+        return response.text()
+    })
+    .then(function(html) {
+        // Initialize the DOM parser
+        var parser = new DOMParser();
+
+        // Parse the text
+        var doc = parser.parseFromString(html, "text/html");
+
+        // You can now even select part of that html as you would in the regular DOM 
+        // Example:
+        // var docArticle = doc.querySelector('#hey').innerHTML;
+
+        console.log(doc.body);
+    })
+    .catch(function(err) {  
+        console.log('Failed to fetch page: ', err);  
+    });
+            });
+        });
+    </script>
 </body>
 </html>

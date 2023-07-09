@@ -8,17 +8,29 @@
                 background: green;
             } */
             :root {
-                --primary: blue;
+                --red: 28;
+                --green: 150;
+                --blue: 130;
+                
+                --accessible-color: calc(
+                    (
+                    (
+                        (var(--red) * 299) +
+                        (var(--green) * 587) +
+                        (var(--blue) * 114)
+                    ) - 128000
+                    ) * -1000
+                );
             }
         </style>
-
+        <link rel="stylesheet" type="text/css" href="./ef-button.css"/>
         <script type="module" src="./ef-button.js"></script>
     </head>
     <body>
         <header></header>
         <main>
-            <button id="efButtonExample" is="ef-button">This is an EF Button</button>
-            <button id="runUnitTests">Run unit tests</button>
+            <button id="efButtonExample" is="ef-button" data-vibration="300,200, 100" type="submit">This is an EF Button</button>
+            <button id="runUnitTests" type="reset">Run unit tests</button>
         </main>
         <footer></footer>
     </body>

@@ -1,5 +1,5 @@
 # EF Button
-
+The Button component shouldn't ever really be needed
 <button is="ef-button" data-vibration="200">Click the Ef-Button</button>
 
 

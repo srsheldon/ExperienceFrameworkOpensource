@@ -1,16 +1,32 @@
-
-
+/**
+ * @class
+ */
 class EfButton extends HTMLButtonElement {
     constructor() {
         super();
-        // this.style = `
-        //     border-radius: 50%;
-        // `;
         this.style = `
-            background-color: var(--primary, green);
+        color:
+        rgb(
+          var(--accessible-color),
+          var(--accessible-color),
+          var(--accessible-color)
+        );
+        background-color:
+        rgb(
+          var(--red),
+          var(--green),
+          var(--blue)
+        );
+        height: 2.5rem;
+
+        @supports (--foo: green) {
+            background-color: blue;
+        }
         `;
         this.vibrate = this.vibrate.bind(this);
+        this.checkContrast = this.checkContrast.bind(this);
         this.classList.add('ef-button');
+        this.setAttribute('is', 'ef-button');
     }
 
     _upgradeProperty(prop) {
@@ -32,48 +48,26 @@ class EfButton extends HTMLButtonElement {
         console.info(`oldValue is ${oldValue}`);
         console.info(`newValue is ${newValue}`);
 
-        //const hasValue = newValue !== null;
-
-        // switch (name) {
-        //     case 'data-appearance': 
-        //         if (this.getAttribute(name) === !hasValue) {
-        //             this.appearance = String(hasValue);
-        //         }
-        //         //this.setAttribute('data-appearance', String(hasValue));
-                
-        //         break;
-        //     case 'data-vibration':
-        //         if (this.getAttribute(name) === !hasValue) {
-        //             this.vibrate = String(hasValue);
-        //         }
-            
-        //         break;
-        //     default:
-        //         console.log('his default');
-        // }
-
-        // switch(name) {
-        //     case 'data-color':
-        //         const bgColorRegex = //gim
-        //         if(newValue !== oldValue) {
-        //             this.style
-        //         }
-        //         break;
-        //     default:
-        //         console.log('his default');
-        // }
-
     }
 
     vibrate() {
         console.log('vibrate called');
-        const vibratePattern = this.dataset.vibration.split(',').map(Number);
+        //const vibratePattern = this.dataset.vibration.split(',').map(Number);
+        const vibratePatternString = this.dataset.vibration;
 
-        // if (typeof window.navigator.vibrate === "function") { 
-        //     window.navigator.vibrate([vibratePattern]);
-        // }
+        try {
+            if (vibratePatternString && 'vibrate' in navigator) {
+                console.log('here');
+                const vibratePattern = vibratePatternString.split(',').map(Number);
+                navigator.vibrate([vibratePattern]);
+            } else {
+                console.log('no!');
+                throw new Error(`The data-vibration attribute is ${vibratePatternString}. The vibrate function is ${typeof navigator.vibrate ? 'supported': 'unsupported'}`);
+            }
+        } catch (error) {
+            console.error(`${error}`);
+        }
 
-        window.navigator.vibrate([vibratePattern]);
     }
 
     connectedCallback() {
@@ -85,6 +79,9 @@ class EfButton extends HTMLButtonElement {
         
         
         this.addEventListener('click', this.vibrate);
+
+        //const efButtonStyle = document.createElement('style');
+        
     }
 
     disconnectedCallback() {
@@ -100,6 +97,19 @@ class EfButton extends HTMLButtonElement {
         console.log('observing');
         return ['data-appearance', 'data-color', 'data-vibration'];
     }
+
+    static get is() {
+        return 'ef-button';
+    }
+
+    checkContrast () {
+        //https://webaim.org/resources/contrastchecker/?fcolor=FFFFFF&bcolor=115F54&api
+
+        //console.log(this.style);
+        console.log(this.style.backgroundColor);
+        console.log(this.style.color);
+    }
+
 
     get appearance() {
         return this.getAttribute('data-appearance');
@@ -149,4 +159,4 @@ class EfButton extends HTMLButtonElement {
 
 }
 
-customElements.define("ef-button", EfButton, { extends: "button" });  
+customElements.define(EfButton.is, EfButton, { extends: 'button' });  

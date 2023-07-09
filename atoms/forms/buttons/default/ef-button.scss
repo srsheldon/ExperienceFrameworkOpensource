@@ -1,0 +1,17 @@
+$buttonDefaults: (
+  background: #4e9bac,
+  min-height: 3rem,
+  border-radius: 1rem
+);
+
+button {
+    @each $defaultRule, $defaultValue in $buttonDefaults {
+        --button-#{$defaultRule}: #{$defaultValue};
+        #{$defaultRule}: var(--button-#{$defaultRule});
+    }
+    
+
+    &[type="submit"] {
+        background: blueviolet;
+    }
+}

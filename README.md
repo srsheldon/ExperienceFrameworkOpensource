@@ -22,3 +22,7 @@ see:
 * http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
+
+add a helper class to auto format text color based on background color: https://css-tricks.com/css-variables-calc-rgb-enforcing-high-contrast-colors/
+
+Archedecture approach is that attributes add functionality and classes add appearance/style changes
